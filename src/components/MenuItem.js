@@ -5,10 +5,10 @@ import {
   Flex,
   Heading,
   Input,
-  Label
-} from '@twilio-paste/core';
+  Label,
+} from "@twilio-paste/core";
 
-import { toCurrency } from '../utilities';
+import { toCurrency } from "../utilities";
 
 export const MenuItem = ({
   uuid,
@@ -18,7 +18,7 @@ export const MenuItem = ({
   total,
   updatePrice = () => {},
   updateQuantity = () => {},
-  remove = () => {}
+  remove = () => {},
 }) => {
   return (
     <Card marginTop="space40">
